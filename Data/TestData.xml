@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestingSuite">
+<test name="AddingContact">
+
+<parameter name="Loginemail" value="techfiosdemo@gmail.com"/>
+<parameter name="password" value="abc123"/>
+<parameter name="Name" value="john smith"/>
+<parameter name="company" value="apple"/>
+<parameter name="email" value="jo@jo.com"/>
+<parameter name="phone" value="123-4568"/>
+<parameter name="address" value="342 Anderson"/>
+<parameter name="city" value="Salt Lake"/>
+<parameter name="state" value="Utah"/>
+<parameter name="zip" value="98056"/>
+
+<classes>
+<class name="test.AddContactTest"/>
+</classes>
+
+</test>
+</suite>
